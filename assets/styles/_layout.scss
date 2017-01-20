@@ -2,19 +2,18 @@
 // * Pattern Library
 // *****************************************************************************
 // *
-// * @name: _build.scss
-// *
-// * Glue everything together into the a single stylesheet
+// * @name: _layout.scss
 // *
 // *****************************************************************************
 
-/*
-  General
-*/
-@import "mixins/mixins";
-@import "config/config";
-@import "vendor/vendor";
-@import "modules/modules";
-@import "partials/partials";
-@import "layout";
-@import "shame";
+body,
+html {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.sg-main {
+  width: 100%;
+  height: 100%;
+}

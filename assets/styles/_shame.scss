@@ -35,6 +35,15 @@
   @include reset-list;
 }
 
+.parchment-preview-body {
+  height: 100%;
+}
+
+.parchment-main {
+  height: 100%;
+}
+
+
 
 
 // *****************************************************************************
@@ -45,11 +54,5 @@
 }
 
 .parchment-preview {
-  .sf-header {
-    display: block;
-    position: relative;
-  }
-  .sf-nav-pre {
-    position: relative;
-  }
+
 }
